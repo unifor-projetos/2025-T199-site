@@ -1,3 +1,11 @@
+# Instalação
+
+```bash
+git clone https://github.com/unifor-projetos/2025-T199-site
+cd 2025-T199-site
+npm install
+```
+
 # Mudanças
 
 ```bash
@@ -9,6 +17,5 @@ git push -u origin main
 # Rodando
 
 ```bash
-npm install
 npm run dev
 ```
