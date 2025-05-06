@@ -1,11 +1,7 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
-
-interface BannerItem {
-  id: number;
-  imageUrl: string;
-}
+import { BannerItem } from "../types";
 
 const LandingBanner: React.FC = () => {
   const bannerItems: BannerItem[] = [

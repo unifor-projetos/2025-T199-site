@@ -1,13 +1,6 @@
 import React, { useState } from "react";
 import { Image, OverlayTrigger, Popover } from "react-bootstrap";
-
-interface MapArea {
-  id: number;
-  name: string;
-  x: number;
-  y: number;
-  description: string;
-}
+import { MapArea } from "../types";
 
 const InteractiveMap: React.FC = () => {
   const [activeArea, setActiveArea] = useState<number | null>(null);

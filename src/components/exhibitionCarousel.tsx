@@ -1,19 +1,7 @@
 import React from "react";
 import { Card, Carousel } from "react-bootstrap";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
-
-interface ExhibitionItem {
-  id: number;
-  title: string;
-  description: string;
-  date?: string;
-  imageUrl: string;
-}
-
-interface ExhibitionCarouselProps {
-  title: string;
-  type: "current" | "upcoming";
-}
+import { ExhibitionCarouselProps, ExhibitionItem } from "../types";
 
 const ExhibitionCarousel: React.FC<ExhibitionCarouselProps> = ({
   title,
