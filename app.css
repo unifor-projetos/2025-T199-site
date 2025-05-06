@@ -1,0 +1,90 @@
+// UNIFOR Color Scheme
+.unifor-theme {
+  background-color: #f8f9fa;
+  color: #212529;
+  min-height: calc(100vh - 56px); // navbar height
+}
+
+.unifor-theme .card {
+  background-color: white;
+  color: #212529;
+  border: 1px solid #dee2e6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.unifor-theme .card .card-title {
+  color: #005ca9;
+}
+
+.unifor-theme .section-title {
+  color: #005ca9;
+  margin-bottom: 2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #ffd100;
+}
+
+// Navbar
+.navbar-unifor {
+  background-color: #005ca9 !important;
+}
+
+.navbar-unifor .navbar-brand,
+.navbar-unifor .nav-link {
+  color: white !important;
+}
+
+.navbar-unifor .nav-link:hover {
+  color: #ffd100 !important;
+}
+
+// Buttons
+.btn-unifor {
+  background-color: #005ca9;
+  color: white;
+  border-color: #005ca9;
+}
+
+.btn-unifor:hover {
+  background-color: #004a8a;
+  border-color: #004a8a;
+  color: white;
+}
+
+// Footer
+.footer-unifor {
+  background-color: #005ca9 !important;
+  color: white !important;
+}
+
+.footer-unifor h5,
+.footer-unifor p,
+.footer-unifor li,
+.footer-unifor a,
+.footer-unifor small {
+  color: white !important;
+}
+
+.footer-unifor a:hover {
+  opacity: 0.8;
+  color: white !important;
+  text-decoration: none;
+}
+
+.social-icons a {
+  font-size: 1.25rem;
+  margin-right: 0.5rem;
+  color: white !important;
+}
+
+.social-icons a:hover {
+  opacity: 0.7;
+  color: white !important;
+}
+
+// Carousel
+.unifor-theme .carousel-control-prev-icon,
+.unifor-theme .carousel-control-next-icon {
+  background-color: #005ca9;
+  border-radius: 50%;
+  padding: 20px;
+}

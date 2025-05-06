@@ -1,21 +1,33 @@
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
+import React from "react";
+import { Navbar, Nav, Container } from "react-bootstrap";
+import "../../app.css";
 
-function NavBar() {
+const NavBar: React.FC = () => {
   return (
-    <>
-      <Navbar bg="dark" data-bs-theme="dark">
-        <Container>
-          <Navbar.Brand href="/">Navbar</Navbar.Brand>
+    <Navbar
+      bg="unifor"
+      expand="lg"
+      fixed="top"
+      className="navbar-unifor"
+      style={{
+        backgroundColor: "#005CA9",
+      }}
+    >
+      <Container>
+        <Navbar.Brand href="/">
+          Espaço Cultural Yolanda e Edson Queiroz
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/counter">Counter</Nav.Link>
+            <Nav.Link href="/exibições">Exibições</Nav.Link>
+            <Nav.Link href="/eventos">Eventos</Nav.Link>
+            <Nav.Link href="/sobre">Sobre</Nav.Link>
           </Nav>
-        </Container>
-      </Navbar>
-    </>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
-}
+};
 
 export default NavBar;
