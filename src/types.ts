@@ -3,7 +3,7 @@ export interface BannerItem {
   imageUrl: string;
 }
 
-export interface MapArea {
+export interface MapItem {
   id: number;
   name: string;
   x: number;

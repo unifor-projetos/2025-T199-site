@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { Image, OverlayTrigger, Popover } from "react-bootstrap";
-import { MapArea } from "../types";
+import { MapItem } from "../types";
 
 const InteractiveMap: React.FC = () => {
   const [activeArea, setActiveArea] = useState<number | null>(null);
 
-  const mapAreas: MapArea[] = [
+  const mapAreas: MapItem[] = [
     {
       id: 1,
       name: "Galeria Principal",
